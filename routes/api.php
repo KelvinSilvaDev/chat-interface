@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+// Route::post('/chat', [ChatController::class, 'sendMessage']);
+
+// Route::post('/send-message', [ChatController::class, 'sendMessage'])->name('send-message');
+
+// Route::post('/chat-with-ai', [ChatController::class, 'chatWithAI'])->name('chat-with-ai');
