@@ -22,7 +22,7 @@
 
 ## 1. Introduction
 
-This project, named "Chat Interface," is a Laravel-based application that leverages Inertia, React, and Tailwind CSS to create a chat interface similar to Chat-GPT. It provides user authentication through Laravel Breeze, and it relies on a MySQL database for data storage. Additionally, it requires specific environment variables, including `OPENAI_API_KEY` and `OPENAI_SECRET_KEY`, with both initially having the same value in your `.env` file.
+This project, named "Chat Interface," is a Laravel-based application that leverages Inertia, React, and Tailwind CSS to create a chat interface similar to Chat-GPT. It provides user authentication through Laravel Breeze, and it relies on a MySQL database for data storage. Additionally, it requires specific environment variables, including `OPENAI_API_KEY`in your `.env` file.
 
 ## 2. Project Setup
 
@@ -30,9 +30,9 @@ This project, named "Chat Interface," is a Laravel-based application that levera
 
 Before setting up the project, make sure you have the following prerequisites:
 
-- PHP (>=7.3)
+- PHP (>=8.0)
 - Composer
-- Node.js
+- Node.js (>=18.0)
 - NPM or Yarn
 - MySQL
 - An OpenAI GPT-3 API Key (Sign up at [OpenAI](https://beta.openai.com/) to get your API key)
@@ -97,9 +97,7 @@ To configure the OpenAI API and other environment variables, edit your `.env` fi
 
 makefileCopy code
 
-`OPENAI_API_KEY=your_openai_api_key
-OPENAI_SECRET_KEY=your_openai_secret_key
-OPENAI_ORGANIZATION=your_openai_organization` 
+`OPENAI_API_KEY=your_openai_api_key` 
 
 ## 3. Usage
 
@@ -154,8 +152,6 @@ The project uses a MySQL database for storing chat messages, user information, a
 Make sure to configure the following environment variables in your `.env` file:
 
 -   `OPENAI_API_KEY`: Your OpenAI GPT-3 API Key.
--   `OPENAI_SECRET_KEY`: Your OpenAI GPT-3 Secret Key.
--   `OPENAI_ORGANIZATION`: Your OpenAI organization (optional).
 
 ## 10. Running Tests with PHPUnit
 
@@ -173,4 +169,14 @@ This project is distributed under the [Specify the project's license (e.g., MIT,
 
 kotlinCopy code
 
- `Now you have the project documentation in Markdown format. You can include this in your project repository.`
+ ## 12. Deployment
+
+The application has been deployed on a Digital Ocean server. Follow the steps below to access the application:
+
+1. **Access URL**: You can access the application through the following URL: [http://67.207.93.154/](http://67.207.93.154/)
+
+This URL will provide access to the Chat Interface online. Please make sure to keep the server and application up and running for the evaluators to access it as needed.
+
+Remember to monitor the server and perform security updates as necessary. Also, keep your credentials and sensitive information in a secure location and do not share them publicly.
+
+If you have any further questions or need additional assistance, please feel free to contact [kelvinsilvadev@gmail.com](mailto:kelvinsilvadev@gmail.com).
