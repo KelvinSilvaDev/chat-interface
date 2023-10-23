@@ -20,7 +20,7 @@ export default function Guest({ children }) {
                 <div className="mt-6 text-center">
                     <div className="mt-4">
                         <Link href={route('register')} className="text-sm text-gray-600 hover:text-gray-900 underline">
-                            Não possui uma conta? Registre-se
+                            Don't have an account? Sign Up
                         </Link>
                     </div>
                 </div>

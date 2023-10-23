@@ -20,8 +20,3 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-// Route::post('/chat', [ChatController::class, 'sendMessage']);
-
-// Route::post('/send-message', [ChatController::class, 'sendMessage'])->name('send-message');
-
-// Route::post('/chat-with-ai', [ChatController::class, 'chatWithAI'])->name('chat-with-ai');
