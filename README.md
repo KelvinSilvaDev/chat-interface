@@ -19,6 +19,7 @@
 9. [Environment Variables](#9-environment-variables)
 10. [Running Tests with PHPUnit](#10-running-tests-with-phpunit)
 11. [License](#11-license)
+12. [Deployment](#12-deployment)
 
 ## 1. Introduction
 
